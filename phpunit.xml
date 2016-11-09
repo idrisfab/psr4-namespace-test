@@ -1,0 +1,23 @@
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.5/phpunit.xsd"
+    backupGlobals="true"
+    backupStaticAttributes="false"
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    processIsolation="false"
+    stopOnFailure="false"
+    verbose="true">
+
+    <testsuites>
+        <testsuite name="Calculation Test Suite">
+            <directory>test/</directory>
+            <file>CalculatorTest.php</file>
+            <!--<exclude></exclude>-->
+        </testsuite>
+    </testsuites>
+
+</phpunit>
